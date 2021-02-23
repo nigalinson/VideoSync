@@ -37,15 +37,15 @@ T= TA2-(TB + TTL)
 
 ````gradle
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 ````
 ````gradle
 dependencies {
-    implementation 'com.sloth.multidevicesync:ZFPlayer:Tag'
+    implementation 'com.github.nigalinson:VideoSync:1.0.0-alpha'
 }
 ````
 

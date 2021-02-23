@@ -35,15 +35,15 @@ when TTL less than 50ms, we could make sure that the absolute offset within two 
 
 ````gradle
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+    	...
+    	maven { url 'https://jitpack.io' }
+    }
 }
 ````
 ````gradle
 dependencies {
-    implementation 'com.sloth.multidevicesync:ZFPlayer:Tag'
+    implementation 'com.github.nigalinson:VideoSync:1.0.0-alpha'
 }
 ````
 
