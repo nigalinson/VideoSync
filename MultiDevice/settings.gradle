@@ -1,0 +1,3 @@
+include ':MultiDeviceSync'
+include ':app'
+rootProject.name = "MultiDevice"
